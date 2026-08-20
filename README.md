@@ -199,9 +199,11 @@ Setiap paket instalasi memerlukan Serial License Key aktif yang terikat ke nomor
 | Layanan / Divisi | Kanal Resmi | Tautan Langsung |
 | :--- | :--- | :---: |
 | 🧑‍💻 **Lead System Architect** | **Ferr - Noah Trading System** | [![GitHub](https://img.shields.io/badge/GitHub-@dferdiantnn-181717?style=flat-square&logo=github)](https://github.com/dferdiantnn) |
-| 💬 **License Activation & CS** | **Instagram Official** | [![Instagram](https://img.shields.io/badge/Instagram-@dferdiantn-E4405F?style=flat-square&logo=instagram&logoColor=white)](https://instagram.com/dferdiantn) |
-| 📱 **Direct Fast Support** | **Telegram Admin** | [![Telegram](https://img.shields.io/badge/Telegram-@dferdiantnn-2CA5E0?style=flat-square&logo=telegram&logoColor=white)](https://t.me/dferdiantnn) |
+| 💬 **Primary CS & License Activation** | **Instagram Official** *(Fast Response)* | [![Instagram](https://img.shields.io/badge/Instagram-@dferdiantn-E4405F?style=flat-square&logo=instagram&logoColor=white)](https://instagram.com/dferdiantn) |
+| 📱 **Secondary Desk / High Queue** | **Telegram Admin** *(High Traffic)* | [![Telegram](https://img.shields.io/badge/Telegram-@exnart-2CA5E0?style=flat-square&logo=telegram&logoColor=white)](https://t.me/exnart) |
 | 🌐 **Public Distribution Repo** | **Noah Engine Trade (NET)** | [![Repository](https://img.shields.io/badge/Repo-NoahEngineTrade-blue?style=flat-square&logo=git)](https://github.com/dferdiantnn/NoahEngineTrade) |
+
+> ⚠️ **Notice**: Untuk proses aktivasi lisensi instan, disarankan menghubungi via **Instagram DM ([@dferdiantn](https://instagram.com/dferdiantn))**. Kanal Telegram ([@exnart](https://t.me/exnart)) memiliki antrean pesan masuk yang padat (*High Traffic*).
 
 </div>
 
