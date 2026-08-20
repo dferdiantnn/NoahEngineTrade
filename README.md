@@ -1,9 +1,9 @@
 <div align="center">
 
-# ⚡ NOAH ENGINE TRADE (NET) V5.0
+# ⚡ NOAH ENGINE TRADE (NET) V5.1
 ### *Next-Generation Autonomous Quantitative Trading & Neural Execution Architecture*
 
-[![Version](https://img.shields.io/badge/Version-5.00%20ULTRA%20PRO-gold?style=for-the-badge&logo=probot&logoColor=white)](https://github.com/dferdiantnn/NoahEngineTrade)
+[![Version](https://img.shields.io/badge/Version-5.10%20ULTRA%20PRO-gold?style=for-the-badge&logo=probot&logoColor=white)](https://github.com/dferdiantnn/NoahEngineTrade)
 [![Platform](https://img.shields.io/badge/Platform-MetaTrader%205%20(MT5)-0078D7?style=for-the-badge&logo=windows&logoColor=white)](https://github.com/dferdiantnn/NoahEngineTrade)
 [![Python](https://img.shields.io/badge/Python-3.10%2B%20Quantitative-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://github.com/dferdiantnn/NoahEngineTrade)
 [![Security](https://img.shields.io/badge/Security-SHA--256%20Cryptographic-green?style=for-the-badge&logo=hackthebox&logoColor=white)](https://github.com/dferdiantnn/NoahEngineTrade)
@@ -36,7 +36,7 @@ Ditenagai oleh arsitektur *Sub-Millisecond Inter-Process Communication (IPC)*, N
 
 ```
 ┌──────────────────────────────────────────────────────────┐
-│  # NOAH TRADING ENGINE V5.0                  [ LIFETIME ]│
+│  # NOAH TRADING ENGINE V5.1                  [ LIFETIME ]│
 ├──────────────────────────────────────────────────────────┤
 │  STATUS       : # BUY  (0.06 Lot / 6 Layers)             │
 │  ENTRY AVG    : [AUTO] 4487.44  │  QUANT: 4487.69        │
@@ -89,7 +89,7 @@ flowchart TD
     end
 
     subgraph ExecutionEngine ["📈 3. MetaTrader 5 Engine"]
-        EA["Noah Engine Trade (NET) V5.0"]
+        EA["Noah Engine Trade (NET) V5.1"]
         EXEC["Split-Layer Smart Order Dispatcher"]
         HUD["Dynamic 2D HUD Dashboard"]
         SECURITY["SHA-256 License Verifier"]

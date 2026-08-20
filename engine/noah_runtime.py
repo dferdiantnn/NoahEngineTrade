@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 ================================================================================
-⚡ NOAH ENGINE TRADE (NET) - QUANTUM RUNTIME SYSTEM V5.0
+⚡ NOAH ENGINE TRADE (NET) - QUANTUM RUNTIME SYSTEM V5.1
 Author: Ferr - Noah Trading System
 Platform: MetaTrader 5 (MT5) Low-Latency Integration
 ================================================================================
@@ -81,7 +81,7 @@ STATE_FILE = os.path.join(MT5_DIR, "noah_state.txt")
 
 def print_banner():
     print("\n" + "="*65)
-    print("⚡  NOAH ENGINE TRADE (NET) - QUANTUM RUNTIME V5.0  ⚡")
+    print("⚡  NOAH ENGINE TRADE (NET) - QUANTUM RUNTIME V5.1  ⚡")
     print("="*65)
     print("🔒 Security Protocol : SHA-256 Cryptographic License Protection")
     print("📡 Execution Core    : Multi-Layer High-Frequency Neural Engine")
