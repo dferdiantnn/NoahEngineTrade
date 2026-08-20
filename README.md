@@ -1,21 +1,38 @@
+<div align="center">
+
 # ⚡ NOAH ENGINE TRADE (NET) V5.0
-> **High-Performance Quantitative Trading System, Interactive 2D Chart Navigation & Multi-Layer Money Management for MetaTrader 5 (MT5)**
+### *Next-Generation Autonomous Quantitative Trading & Neural Execution Architecture*
 
-![Version](https://img.shields.io/badge/version-5.00-gold.svg?style=for-the-badge)
-![Platform](https://img.shields.io/badge/Platform-MetaTrader%205%20(MT5)-navy.svg?style=for-the-badge)
-![Security](https://img.shields.io/badge/Security-Cryptographic%20SHA--256-green.svg?style=for-the-badge)
-![OS Support](https://img.shields.io/badge/OS-Windows%20%7C%20macOS%20%7C%20Linux-purple.svg?style=for-the-badge)
-![License](https://img.shields.io/badge/License-Commercial%20Proprietary-red.svg?style=for-the-badge)
+[![Version](https://img.shields.io/badge/Version-5.00%20ULTRA%20PRO-gold?style=for-the-badge&logo=probot&logoColor=white)](https://github.com/dferdiantnn/NoahEngineTrade)
+[![Platform](https://img.shields.io/badge/Platform-MetaTrader%205%20(MT5)-0078D7?style=for-the-badge&logo=windows&logoColor=white)](https://github.com/dferdiantnn/NoahEngineTrade)
+[![Python](https://img.shields.io/badge/Python-3.10%2B%20Quantitative-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://github.com/dferdiantnn/NoahEngineTrade)
+[![Security](https://img.shields.io/badge/Security-SHA--256%20Cryptographic-green?style=for-the-badge&logo=hackthebox&logoColor=white)](https://github.com/dferdiantnn/NoahEngineTrade)
+[![OS Support](https://img.shields.io/badge/OS-Windows%20%7C%20macOS%20%7C%20Linux-blueviolet?style=for-the-badge&logo=apple&logoColor=white)](https://github.com/dferdiantnn/NoahEngineTrade)
+[![License](https://img.shields.io/badge/License-Commercial%20Proprietary-red?style=for-the-badge&logo=github&logoColor=white)](https://github.com/dferdiantnn/NoahEngineTrade)
+
+<p align="center">
+  <img src="logo_noahid.png" alt="Noah Engine Trade Logo" width="220" />
+</p>
+
+<p align="center">
+  <b>Sistem Trading Kuantitatif Cerdas Berakurasi Tinggi dengan Eksekusi Multi-Layer Dinamis, Navigasi Grafik 2D Bebas, & Proteksi Keamanan Kriptografi Tingkat Lanjut.</b>
+</p>
+
+[✨ Fitur Unggulan](#-fitur-unggulan-revolusioner) • [🏗️ Arsitektur Sistem](#-arsitektur-alur-kerja-kuantitatif) • [🎮 Kontrol Hotkeys](#-kontrol-presisi-4-arah-keyboard) • [💻 Panduan Instalasi](#-panduan-instalasi--penggunaan-multi-os) • [🔑 Lisensi & Kontak](#-aktivasi-lisensi--kontak-resmi)
 
 ---
 
-## 🌟 Tentang Noah Engine Trade (NET)
+</div>
 
-**Noah Engine Trade (NET)** adalah sistem trading kuantitatif mutakhir yang dirancang khusus untuk platform **MetaTrader 5 (MT5)**. Sistem ini menggabungkan eksekusi algoritma berkecepatan tinggi, manajemen risiko split-layer dinamis, navigasi grafik 2D bebas, serta perlindungan lisensi kriptografi tingkat tinggi.
+## 🌌 Tentang Noah Engine Trade (NET)
+
+**Noah Engine Trade (NET)** adalah ekosistem trading algoritmik mutakhir yang dibangun dengan menggabungkan **analisis komputasi kuantitatif berkecepatan tinggi**, **microstructure pattern recognition**, dan **manajemen risiko multi-layer proporsional** pada platform **MetaTrader 5 (MT5)**.
+
+Ditenagai oleh arsitektur *Sub-Millisecond Inter-Process Communication (IPC)*, NET menjembatani pemrosesan neural kuantitatif secara instan langsung ke pasar modal, memberikan eksekusi presisi tanpa latensi dengan dashboard Heads-Up Display (HUD) yang sangat interaktif.
 
 ---
 
-## ✨ Fitur Utama Sistem
+## ✨ Fitur Unggulan Revolusioner
 
 ```
 ┌──────────────────────────────────────────────────────────┐
@@ -38,56 +55,162 @@
 └──────────────────────────────────────────────────────────┘
 ```
 
-### 1. 🖱️ Dynamic 2D Free Chart Drag Navigation
-- **Geser Bebas 4 Arah**: Anda dapat mengklik dan menggeser grafik chart ke **Atas, Bawah, Kiri, dan Kanan** secara bebas layaknya pengalaman modern di TradingView.
-- **Auto-Fit Reset**: Tekan tombol **Spasi (`Space`)** atau huruf **`R`** untuk mengembalikan skala vertikal chart ke standar otomatis.
+### 🧠 1. Multi-Layer Split Execution & Dynamic Runners
+- **Manajemen Risiko Bertingkat**: Setiap order dipecah secara matematis ke dalam 1 hingga 7 layer dengan target Take Profit (TP) berjenjang dan 1 layer terakhir sebagai **Runner Tanpa Batas** untuk menangkap reli tren panjang (Big Moves).
+- **Auto-Breakeven Dinamis (BE)**: Mengunci posisi saat harga telah mencapai target pips tertentu, menjamin transaksi bebas risiko (*Risk-Free Trade*).
 
-### 2. 🎮 4-Way Arrow Precision Controls
-- ⬆️ **Panah Atas**: Eksekusi Instant Buy Manual (Split Layers).
-- ⬇️ **Panah Bawah**: Eksekusi Instant Sell Manual (Split Layers).
-- ⬅️ **Panah Kiri**: Menutup semua posisi Manual (`[M]`).
-- ➡️ **Panah Kanan**: Menutup semua posisi Auto Engine (`[A]`).
+### 🖱️ 2. Dynamic 2D Free Chart Navigation (TradingView Experience)
+- **Geser Grafik 4 Arah**: Anda dapat mengklik kiri dan menggeser grafik candlestick chart MT5 ke **Atas, Bawah, Kiri, dan Kanan** secara bebas dan fleksibel.
+- **Spacebar Auto-Fit Reset**: Cukup tekan tombol **Spasi (`Space`)** atau huruf **`R`** pada keyboard untuk mengembalikan skala vertikal grafik ke posisi normal secara instan.
 
-### 3. 📊 Real-Time Account & Risk HUD
-- **`EQUITY LIVE`**: Memantau perkembangan modal ekuiti dan balance secara real-time.
-- **`NEXT: mm:ss`**: Hitung mundur penutupan candlestick aktif langsung di dalam footer HUD.
-- **`LAST CLOSED`**: Rekapitulasi profit/loss transaksi terakhir saat mode Standby.
+### 📊 3. Live Equity & Next Candle Countdown HUD
+- **Real-Time Account Matrix**: Menampilkan modal ekuiti berjalan, saldo balance, dan status floating profit/loss per layer secara transparan.
+- **Candle Timer (`NEXT: mm:ss`)**: Menghitung mundur sisa detik penutupan candlestick aktif langsung pada panel HUD dashboard.
+- **Standby Analytics**: Menampilkan histori hasil profit/loss dari transaksi terakhir saat tidak ada posisi yang berjalan.
 
-### 4. 🔐 Cryptographic License Security
-- Sistem diamankan dengan algoritma enkripsi SHA-256 yang dikunci khusus ke Nomor Akun MT5 pengguna dan masa aktif lisensi.
+### 🔐 4. Cryptographic License Protection (SHA-256)
+- Setiap instalasi dilindungi oleh serial key kriptografi yang dikunci khusus ke nomor akun MT5 pengguna dan masa aktif lisensi (30 Hari, 60 Hari, 90 Hari, 1 Tahun, hingga Lifetime).
 
 ---
 
-## 📖 Panduan Penginstalan & Penggunaan
+## 🏗️ Arsitektur Alur Kerja Kuantitatif
 
-### 1. Pemasangan Expert Advisor di MT5
-1. Salin file `mql5/Manager.ex5` ke folder `MQL5/Experts/manager/` di MetaTrader 5 Anda.
-2. Buka MT5 $\rightarrow$ buka chart pair pilihan Anda (misal **XAUUSD / Gold M15**).
-3. Drag `Manager` dari panel *Navigator* ke chart.
-4. Pada tab **Umum (Common)**, centang **Izinkan Trading Algo (Allow Algo Trading)**.
-5. Pada tab **Masukan (Inputs)**, masukkan **Serial Key Lisensi** resmi Anda di baris `InpLicenseKey`.
-6. Klik **OK**.
+```mermaid
+flowchart TD
+    subgraph MarketData ["🌐 1. Global Market Feed"]
+        TICK["Tick Stream & Volatility Flow"]
+        VOL["Order Book Liquidity Matrix"]
+    end
 
-### 2. Menjalankan Engine Runtime
-1. Buka Terminal / CMD:
+    subgraph NeuralCore ["🧠 2. Noah Quantitative Engine"]
+        ANALYZE["Neural Microstructure Analysis"]
+        FILTER["Adaptive Volatility Filter"]
+        IPC["Sub-Millisecond Shared Memory Bridge"]
+    end
+
+    subgraph ExecutionEngine ["📈 3. MetaTrader 5 Engine"]
+        EA["Noah Engine Trade (NET) V5.0"]
+        EXEC["Split-Layer Smart Order Dispatcher"]
+        HUD["Dynamic 2D HUD Dashboard"]
+        SECURITY["SHA-256 License Verifier"]
+    end
+
+    TICK --> ANALYZE
+    VOL --> FILTER
+    ANALYZE --> IPC
+    FILTER --> IPC
+    IPC -->|Real-Time Signal Pulse| EA
+    SECURITY -->|Authentication Passed| EA
+    EA -->|Multi-Layer TP/SL| EXEC
+    EA -->|Real-Time Visuals & Timer| HUD
+```
+
+---
+
+## 🎮 Kontrol Presisi 4 Arah Keyboard
+
+| Tombol Keyboard | Aksi Sistem | Keterangan & Perilaku |
+| :---: | :--- | :--- |
+| ⬆️ **Panah Atas (Up)** | **Instant BUY Multi-Layer** | Eksekusi instan split order Buy manual dengan layer proporsional |
+| ⬇️ **Panah Bawah (Down)** | **Instant SELL Multi-Layer** | Eksekusi instan split order Sell manual dengan layer proporsional |
+| ⬅️ **Panah Kiri (Left)** | **Close All MANUAL Orders** | Menutup seluruh order Manual (`[M]`) tanpa mengganggu order Auto Engine |
+| ➡️ **Panah Kanan (Right)** | **Close All AUTO Orders** | Menutup paksa seluruh order Auto Engine (`[A]`) secara seketika |
+| ␣ **Spasi / Huruf R** | **Reset Chart Scale** | Mengembalikan skala vertikal grafik chart ke Auto-Fit standar MT5 |
+
+---
+
+## 💻 Panduan Instalasi & Penggunaan (Multi-OS)
+
+Sistem ini terdiri dari **Expert Advisor MT5 (`Manager.ex5`)** dan **Quantitative Engine Runtime (`noah_runtime.py`)**.
+
+---
+
+### 🪟 A. Panduan Pengguna WINDOWS
+
+#### 1. Persiapan:
+- Pastikan **MetaTrader 5 (MT5)** sudah terpasang dan login ke akun trading Anda.
+- Instal Python 3.10+ dari [python.org](https://www.python.org/downloads/) *(Centang "Add Python to PATH")*.
+
+#### 2. Pemasangan EA di MT5:
+1. Buka MetaTrader 5 $\rightarrow$ Menu **File** $\rightarrow$ **Open Data Folder**.
+2. Masuk ke folder `MQL5` $\rightarrow$ `Experts` $\rightarrow$ buat folder `manager` $\rightarrow$ salin file `mql5/Manager.ex5` ke dalamnya.
+3. Buka chart **XAUUSD (Gold)** timeframe **M15**.
+4. Drag `Manager` dari panel *Navigator* ke chart.
+5. Pada tab **Umum (Common)**, centang **Izinkan Trading Algo (Allow Algo Trading)**.
+6. Pada tab **Masukan (Inputs)**, masukkan **Serial Key Lisensi** Anda di baris `InpLicenseKey`. Klik **OK**.
+7. Pastikan tombol **Trading Algo** di toolbar atas MT5 menyala **Hijau**.
+
+#### 3. Menjalankan Engine Runtime:
+1. Buka Command Prompt (CMD) / PowerShell:
+   ```cmd
+   cd C:\path\ke\NoahEngineTrade
+   python engine/noah_runtime.py
+   ```
+2. Engine kuantitatif akan langsung tersinkronisasi dengan MT5!
+
+---
+
+### 🍎 B. Panduan Pengguna macOS (Apple Silicon & Intel)
+
+#### 1. Persiapan:
+1. Buka Terminal Mac $\rightarrow$ pastikan Python 3 terinstal:
+   ```bash
+   brew install python
+   ```
+
+#### 2. Pemasangan EA di MT5 Mac:
+1. Buka Finder $\rightarrow$ tekan `Cmd + Shift + G` $\rightarrow$ buka folder data MT5 Wine:
+   ```text
+   ~/Library/Application Support/net.metaquotes.wine.metatrader5/drive_c/Program Files/MetaTrader 5/MQL5/Experts/manager/
+   ```
+2. Salin file `Manager.ex5` ke folder tersebut.
+3. Pasang EA ke chart **XAUUSD M15**, masukkan Serial Key Lisensi Anda di tab Masukan, dan aktifkan **Trading Algo**.
+
+#### 3. Menjalankan Engine Runtime:
+1. Cukup klik 2 kali file shortcut **`RunNoahEngine.command`**.
+2. Terminal akan otomatis terbuka dan menampilkan status sinkronisasi `[QUANTUM CORE ACTIVE]`.
+
+---
+
+### 🐧 C. Panduan Pengguna LINUX (Ubuntu / Debian / Wine)
+
+#### 1. Persiapan:
+```bash
+sudo apt update && sudo apt install -y python3 wine
+```
+
+#### 2. Pemasangan & Menjalankan:
+1. Salin `Manager.ex5` ke folder Wine MT5 Anda:
+   `~/.wine/drive_c/Program Files/MetaTrader 5/MQL5/Experts/manager/`
+2. Pasang EA ke chart MT5 dan aktifkan Trading Algo.
+3. Jalankan runtime di terminal:
    ```bash
    python3 engine/noah_runtime.py
    ```
-   *(Pengguna macOS cukup klik 2x file `RunNoahEngine.command`)*.
-2. Engine kuantitatif akan otomatis terhubung ke MT5 dan melakukan sinkronisasi data secara real-time.
 
 ---
 
-## 👥 Pengembang & Kontak Lisensi
+## 🔑 Aktivasi Lisensi & Kontak Resmi
 
-| Identitas | Keterangan |
-| :---: | :--- |
-| **Author** | **Ferr - Noah Trading System** ([@dferdiantnn](https://github.com/dferdiantnn)) |
-| **Lisensi & Layanan** | Untuk aktivasi serial key akun MT5, hubungi Admin: [@dferdiantnn](https://t.me/dferdiantnn) |
+Setiap paket instalasi memerlukan Serial License Key aktif yang terikat ke nomor akun MT5 Anda.
+
+<div align="center">
+
+| Layanan | Kontak Resmi |
+| :--- | :--- |
+| 🧑‍💻 **Lead Architect & Developer** | **Ferr - Noah Trading System** ([@dferdiantnn](https://github.com/dferdiantnn)) |
+| 💬 **Customer Service & License Activation** | [Telegram Admin @dferdiantnn](https://t.me/dferdiantnn) |
+| 🌐 **Official Public Repository** | [https://github.com/dferdiantnn/NoahEngineTrade](https://github.com/dferdiantnn/NoahEngineTrade) |
+
+</div>
 
 ---
 
-## ⚠️ Disclaimer
-*Trading derivatif dan instrumen valuta asing memiliki risiko modal yang tinggi. Selalu uji coba strategi pada akun demo dan pastikan Anda menerapkan manajemen risiko yang bijak.*
+<div align="center">
+
+### ⚠️ Risk Disclaimer
+*Perdagangan valuta asing (Forex) dan komoditas dengan leverage memiliki risiko yang tinggi dan mungkin tidak cocok untuk semua investor. Pastikan Anda memahami risiko secara menyeluruh dan menguji strategi menggunakan akun demo sebelum bertransaksi dengan dana riil.*
 
 **Copyright © 2026 Ferr - Noah Trading System. All Rights Reserved.**
+
+</div>
