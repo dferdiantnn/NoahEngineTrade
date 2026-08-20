@@ -1,0 +1,2 @@
+# Noah Engine Trade Client Dependencies
+# No heavy image processing needed on client side!
