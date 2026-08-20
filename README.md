@@ -190,6 +190,23 @@ sudo apt update && sudo apt install -y python3 wine
 
 ---
 
+
+---
+
+## ⚡ Rekomendasi Infrastruktur & Sistem Anti-Sleep (VPS & PC)
+
+> [!TIP]
+> **SARAN TERBAIK**: Untuk performa trading kuantitatif nonstop 24/5 tanpa risiko gangguan listrik padam atau koneksi internet rumah yang tidak stabil, **sangat disarankan menjalankan Noah Engine Trade pada VPS Windows (Virtual Private Server)** dengan latensi broker rendah (<10ms).
+
+### 🛡️ Proteksi Otomatis Anti-Sleep (Built-in Awake Guard)
+Sistem **Noah Engine Trade (NET)** sudah dilengkapi dengan modul **Native Awake Guard**:
+- **Di Windows / VPS (Termasuk Windows Oprekan/Tweak)**: Secara otomatis mengunci status prosesor via `kernel32` agar PC tidak pernah masuk mode *Sleep / Hibernate*.
+- **Di macOS**: Otomatis mengaktifkan proteksi ganda `caffeinate -d -i` untuk menjaga layar dan prosesor tetap bekerja penuh.
+- *Saat runtime ditutup*: Pengaturan daya laptop Anda otomatis kembali normal.
+
+> ⚠️ **PERINGATAN PENTING BAGI PENGGUNA LAPTOP**:
+> Jika Anda menjalankan trading di laptop pribadi (bukan VPS), **pastikan laptop selalu tersambung ke charger daya (colokan listrik)** dan **jangan menutup layar laptop** agar sistem operasi tidak mematikan modul jaringan WiFi/LAN!
+
 ## 🔑 Aktivasi Lisensi & Kontak Resmi
 
 Setiap paket instalasi memerlukan Serial License Key aktif yang terikat ke nomor akun MT5 Anda.

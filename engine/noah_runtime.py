@@ -11,6 +11,36 @@ import os, time, sys, json, subprocess, threading
 
 CONFIG_FILE = "noah_client_config.json"
 
+# ==========================================
+# SYSTEM AWAKE GUARD (ANTI-SLEEP / HIBERNATE)
+# ==========================================
+_caffeinate_proc = None
+
+def start_awake_guard():
+    global _caffeinate_proc
+    try:
+        if sys.platform == "darwin":
+            _caffeinate_proc = subprocess.Popen(["caffeinate", "-d", "-i"])
+        elif sys.platform == "win32":
+            import ctypes
+            ctypes.windll.kernel32.SetThreadExecutionState(0x80000001 | 0x00000002)
+    except Exception: pass
+
+def stop_awake_guard():
+    global _caffeinate_proc
+    try:
+        if _caffeinate_proc and _caffeinate_proc.poll() is None:
+            _caffeinate_proc.terminate()
+        if sys.platform == "win32":
+            import ctypes
+            ctypes.windll.kernel32.SetThreadExecutionState(0x80000000)
+    except Exception: pass
+
+import atexit
+atexit.register(stop_awake_guard)
+start_awake_guard()
+
+
 def get_default_mt5_dir():
     # Cek direktori MT5 files otomatis
     home = os.path.expanduser("~")
