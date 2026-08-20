@@ -196,11 +196,12 @@ Setiap paket instalasi memerlukan Serial License Key aktif yang terikat ke nomor
 
 <div align="center">
 
-| Layanan | Kontak Resmi |
-| :--- | :--- |
-| 🧑‍💻 **Lead Architect & Developer** | **Ferr - Noah Trading System** ([@dferdiantnn](https://github.com/dferdiantnn)) |
-| 💬 **Customer Service & License Activation** | [Telegram Admin @dferdiantnn](https://t.me/dferdiantnn) |
-| 🌐 **Official Public Repository** | [https://github.com/dferdiantnn/NoahEngineTrade](https://github.com/dferdiantnn/NoahEngineTrade) |
+| Layanan / Divisi | Kanal Resmi | Tautan Langsung |
+| :--- | :--- | :---: |
+| 🧑‍💻 **Lead System Architect** | **Ferr - Noah Trading System** | [![GitHub](https://img.shields.io/badge/GitHub-@dferdiantnn-181717?style=flat-square&logo=github)](https://github.com/dferdiantnn) |
+| 💬 **License Activation & CS** | **Instagram Official** | [![Instagram](https://img.shields.io/badge/Instagram-@dferdiantn-E4405F?style=flat-square&logo=instagram&logoColor=white)](https://instagram.com/dferdiantn) |
+| 📱 **Direct Fast Support** | **Telegram Admin** | [![Telegram](https://img.shields.io/badge/Telegram-@dferdiantnn-2CA5E0?style=flat-square&logo=telegram&logoColor=white)](https://t.me/dferdiantnn) |
+| 🌐 **Public Distribution Repo** | **Noah Engine Trade (NET)** | [![Repository](https://img.shields.io/badge/Repo-NoahEngineTrade-blue?style=flat-square&logo=git)](https://github.com/dferdiantnn/NoahEngineTrade) |
 
 </div>
 
@@ -211,6 +212,8 @@ Setiap paket instalasi memerlukan Serial License Key aktif yang terikat ke nomor
 ### ⚠️ Risk Disclaimer
 *Perdagangan valuta asing (Forex) dan komoditas dengan leverage memiliki risiko yang tinggi dan mungkin tidak cocok untuk semua investor. Pastikan Anda memahami risiko secara menyeluruh dan menguji strategi menggunakan akun demo sebelum bertransaksi dengan dana riil.*
 
-**Copyright © 2026 Ferr - Noah Trading System. All Rights Reserved.**
+**Copyright © 2026 - Present Ferr - Noah Trading System. All Rights Reserved.**
+
+*Proudly Engineered & Maintained Continuously.*
 
 </div>
