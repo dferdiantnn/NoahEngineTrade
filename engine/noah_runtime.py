@@ -85,6 +85,7 @@ def print_banner():
     print("="*65)
     print("🔒 Security Protocol : SHA-256 Cryptographic License Protection")
     print("📡 Execution Core    : Multi-Layer High-Frequency Neural Engine")
+    print("🧠 Filter Architecture: Temporal Multi-Frame Consensus Engine (Anti-Noise)")
     print("📊 Data Bridge       : Sub-Millisecond MT5 IPC Shared Memory")
     print(f"📁 MT5 Interface     : {MT5_DIR}")
     print("="*65)
