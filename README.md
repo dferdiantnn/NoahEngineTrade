@@ -1,9 +1,9 @@
 <div align="center">
 
-# ⚡ NOAH ENGINE TRADE (NET) V5.1
+# ⚡ NOAH ENGINE TRADE (NET) V5.2
 ### *Next-Generation Autonomous Quantitative Trading & Neural Execution Architecture*
 
-[![Version](https://img.shields.io/badge/Version-5.10%20ULTRA%20PRO-gold?style=for-the-badge&logo=probot&logoColor=white)](https://github.com/dferdiantnn/NoahEngineTrade)
+[![Version](https://img.shields.io/badge/Version-5.20%20ULTRA%20PRO-gold?style=for-the-badge&logo=probot&logoColor=white)](https://github.com/dferdiantnn/NoahEngineTrade)
 [![Platform](https://img.shields.io/badge/Platform-MetaTrader%205%20(MT5)-0078D7?style=for-the-badge&logo=windows&logoColor=white)](https://github.com/dferdiantnn/NoahEngineTrade)
 [![Python](https://img.shields.io/badge/Python-3.10%2B%20Quantitative-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://github.com/dferdiantnn/NoahEngineTrade)
 [![Security](https://img.shields.io/badge/Security-SHA--256%20Cryptographic-green?style=for-the-badge&logo=hackthebox&logoColor=white)](https://github.com/dferdiantnn/NoahEngineTrade)
@@ -36,7 +36,7 @@ Ditenagai oleh arsitektur *Sub-Millisecond Inter-Process Communication (IPC)*, N
 
 ```
 ┌──────────────────────────────────────────────────────────┐
-│  # NOAH TRADING ENGINE V5.1                  [ LIFETIME ]│
+│  # NOAH TRADING ENGINE V5.2                  [ LIFETIME ]│
 ├──────────────────────────────────────────────────────────┤
 │  STATUS       : # BUY  (0.06 Lot / 6 Layers)             │
 │  ENTRY AVG    : [AUTO] 4487.44  │  QUANT: 4487.69        │
@@ -76,33 +76,59 @@ Ditenagai oleh arsitektur *Sub-Millisecond Inter-Process Communication (IPC)*, N
 ## 🏗️ Arsitektur Alur Kerja Kuantitatif
 
 ```mermaid
-flowchart TD
-    subgraph MarketData ["🌐 1. Global Market Feed"]
-        TICK["Tick Stream & Volatility Flow"]
-        VOL["Order Book Liquidity Matrix"]
-    end
+flowchart TB
+    %% STYLING PALETTE
+    classDef market fill:#111927,stroke:#00E5FF,stroke-width:2px,color:#E0F7FA;
+    classDef quantum fill:#1A1333,stroke:#BD00FF,stroke-width:2px,color:#F3E5F5;
+    classDef engine fill:#0A2518,stroke:#00FF66,stroke-width:2px,color:#E8F8F0;
+    classDef hud fill:#2C1608,stroke:#FF9100,stroke-width:2px,color:#FFF3E0;
 
-    subgraph NeuralCore ["🧠 2. Noah Quantitative Engine"]
-        ANALYZE["Neural Microstructure Analysis"]
-        FILTER["Adaptive Volatility Filter"]
-        IPC["Sub-Millisecond Shared Memory Bridge"]
+    subgraph S1 ["🌐 1. GLOBAL HIGH-FREQUENCY MARKET FEED"]
+        direction TB
+        M1["⚡ Live Microstructure Order Book Flow"]
+        M2["🌊 Real-Time Volatility Pulse Matrix"]
+        M3["📊 Institutional Liquidity Imbalance Feed"]
     end
+    class S1,M1,M2,M3 market;
 
-    subgraph ExecutionEngine ["📈 3. MetaTrader 5 Engine"]
-        EA["Noah Engine Trade (NET) V5.1"]
-        EXEC["Split-Layer Smart Order Dispatcher"]
-        HUD["Dynamic 2D HUD Dashboard"]
-        SECURITY["SHA-256 License Verifier"]
+    subgraph S2 ["🧠 2. NOAH QUANTUM QUANTITATIVE NEURAL ENGINE"]
+        direction TB
+        Q1["🔬 Sub-Millisecond Neural Pattern Recognition"]
+        Q2["🛡️ Adaptive Temporal Consensus Filter (Anti-Noise & Anti-Glitch)"]
+        Q3["⚡ Low-Latency IPC Shared Memory Bridge (0.4ms)"]
+        Q4["🔒 Hardware-Locked SHA-256 Cryptographic Core"]
     end
+    class S2,Q1,Q2,Q3,Q4 quantum;
 
-    TICK --> ANALYZE
-    VOL --> FILTER
-    ANALYZE --> IPC
-    FILTER --> IPC
-    IPC -->|Real-Time Signal Pulse| EA
-    SECURITY -->|Authentication Passed| EA
-    EA -->|Multi-Layer TP/SL| EXEC
-    EA -->|Real-Time Visuals & Timer| HUD
+    subgraph S3 ["📈 3. METATRADER 5 DYNAMIC EXECUTION MATRIX"]
+        direction TB
+        E1["🎯 Multi-Layer Split Order Dispatcher (1 - 7 Layers)"]
+        E2["🚀 Limitless Dynamic Runner Engine (Big Moves Capture)"]
+        E3["🛡️ Auto-Breakeven (BE) Dynamic Risk Shield"]
+        E4["🎮 4-Way Arrow Precision Keyboard Trigger Engine"]
+    end
+    class S3,E1,E2,E3,E4 engine;
+
+    subgraph S4 ["🖥️ 4. INTERACTIVE 2D CHARTS & ADVANCED HUD"]
+        direction TB
+        H1["🖱️ 2D Free Dynamic Chart Drag Navigation (TradingView Native Feel)"]
+        H2["📊 Live Account Equity, Balance & Multi-Layer Floating Matrix"]
+        H3["⏳ Real-Time Candlestick Expiration Countdown (NEXT: mm:ss)"]
+        H4["💤 Native Awake Guard (kernel32 / caffeinate Anti-Sleep Protection)"]
+    end
+    class S4,H1,H2,H3,H4 hud;
+
+    %% CONNECTIONS
+    M1 & M2 & M3 ==> Q1
+    Q1 --> Q2
+    Q2 --> Q3
+    Q4 -.->|Authentication Verified| Q3
+    Q3 ==>|Sub-Millisecond Quantum Signal Pulse| E1
+    E1 --> E2 & E3
+    E4 -->|Instant Execution Override| E1
+    E1 & E2 & E3 ==>|Bidirectional Telemetry| H2
+    H1 -.->|2D Dynamic Viewport| H2
+    H4 -.->|Continuous Power Guard| Q3 & E1
 ```
 
 ---
